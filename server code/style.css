@@ -1,0 +1,152 @@
+.wrapper{
+    height:100vh;
+    background-color: white;
+   /*  background-attachment: fixed;
+    background-size: cover;
+    background-image: url("./assets/images/cover.jpg"); */
+}
+
+.navbar{
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;  
+    display: flex;
+    background-color: white;
+}
+
+
+.tab{ 
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    width: 100%;
+}
+li{
+    padding-right: 25px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding: 10px;
+    font-size: 18px;
+    
+}
+a:hover{
+    border: solid 5px #FC5185;
+    transition: border-width 0.6s linear;
+}
+
+.hometext{
+    text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly; 
+     margin-top: 140px;;
+}
+.active{
+    background-color:#e2e2e8;
+}
+h1{
+    font-style: italic;
+    color: #545465;
+    font-size: 45px;
+}
+#para{
+    color:#1cb8bf;
+    font-size: 19px;
+    font-size: 28px;
+} 
+.subfooter{
+    display:flex;
+    justify-content: space-between;
+}
+.footer{
+    background-color:#3e3b3b;
+    color: white;
+    padding: 10px;
+}
+.contactone{
+    text-align: center;
+}
+.pic{
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+      
+}
+.testimonialtab{  
+    display: block;
+    padding: 15px;
+    margin: 90px;
+
+}
+.testimonialsection{  
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    border: 1px solid black ;
+}
+/* .notifycontent{
+    background-color: darkolivegreen;
+} */
+
+#inputbox{
+    height: 30px;
+    width: 50%;
+    border-radius: 5px;
+    padding: 3px;
+}
+#submitbtn{
+    height: 35px;
+    width: 20%;
+    background-color: #d8cbcb;
+    border-radius: 3px;
+    border: none;
+    font-size: 17px;
+}
+.aboutustitle{
+        text-align: center;
+        font-size: 70px;
+        color: teal;
+
+}
+
+.aboutusbody{
+    background-color: #e5fafb;
+
+}
+.aboutuspone{
+    font-size: 20px;
+
+}
+.aboutusptwo{
+    font-size: 22px;
+    font-family: fantasy;
+}
+.aboutuspthree{
+    font-size: 22px;
+    font-family: fantasy;
+}
+.aboutunone{
+    font-size: 20px;
+}
+.aboutuntwo{
+    font-size: 20px;
+}
+.testbody{
+    background-color: #e5fafb;
+}
+.contbody{
+    background-color: #e5fafb;
+}
+.homebody{
+    background-color: #e5fafb;
+}
+.galleryfirst{
+    display: contents;
+}
+.gallbody{
+    background-color: #e5fafb;
+}
